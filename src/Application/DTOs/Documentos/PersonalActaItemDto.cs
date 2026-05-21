@@ -5,6 +5,5 @@ public record PersonalActaItemDto(
     string Cedula,
     string Cargo,
     DateTime? Fecha,
-    string Email,
-    string? TempPass
+    string Email
 );

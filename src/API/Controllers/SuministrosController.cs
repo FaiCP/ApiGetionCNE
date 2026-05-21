@@ -42,6 +42,7 @@ public class SuministrosController : ControllerBase
     /// <summary>Crea un nuevo suministro remanufacturado</summary>
     /// <param name="request">Datos del suministro</param>
     /// <returns>ID del suministro creado</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<long>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -61,6 +62,7 @@ public class SuministrosController : ControllerBase
     /// <param name="id">ID del suministro a actualizar</param>
     /// <param name="request">Nuevos datos del suministro</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPut("Actualizar/{id}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -81,6 +83,7 @@ public class SuministrosController : ControllerBase
     /// <summary>Elimina (borrado lógico) suministros</summary>
     /// <param name="ids">Lista de IDs a eliminar</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpDelete("Eliminar")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]

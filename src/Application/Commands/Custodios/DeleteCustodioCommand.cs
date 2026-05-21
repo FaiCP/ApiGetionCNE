@@ -20,11 +20,7 @@ public class DeleteCustodioCommandHandler : IRequestHandler<DeleteCustodioComman
         {
             var custodio = await _custodioRepository.GetByIdAsync(id);
             if (custodio != null)
-            {
-                custodio.Borrado = true;
-                custodio.UpdatedAt = DateTime.UtcNow;
-                await _custodioRepository.UpdateAsync(custodio);
-            }
+                await _custodioRepository.DeleteAsync(custodio);
         }
         return true;
     }

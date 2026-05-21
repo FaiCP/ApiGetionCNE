@@ -1,10 +1,31 @@
+using System.Threading.RateLimiting;
 using Serilog;
 using API.Middleware;
 using Application;
 using Infrastructure;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Validar configuracion critica de seguridad (solo en produccion y staging, no en Testing)
+var jwtKey = builder.Configuration["Jwt:Key"];
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+if (!builder.Environment.IsEnvironment("Testing"))
+{
+    if (string.IsNullOrWhiteSpace(jwtKey) || jwtKey.Length < 32)
+        throw new InvalidOperationException("JWT:Key debe estar configurada con al menos 32 caracteres. Use variables de entorno o User Secrets.");
+
+    if (string.IsNullOrWhiteSpace(connectionString))
+        throw new InvalidOperationException("ConnectionStrings:DefaultConnection debe estar configurada. Use variables de entorno o User Secrets.");
+}
+
+if (string.IsNullOrWhiteSpace(jwtKey))
+    jwtKey = "fallback-dev-key-for-testing-only-min-32ch!!";
+
+if (string.IsNullOrWhiteSpace(connectionString))
+    connectionString = "InMemory";
 
 // Configurar Serilog
 Log.Logger = new LoggerConfiguration()
@@ -19,10 +40,10 @@ builder.Host.UseSerilog();
 builder.Services.AddControllers();
 
 // Registrar servicios de Application (MediatR, AutoMapper, FluentValidation)
-builder.Services.AddApplicationServices();
+builder.Services.AddApplicationServices(builder.Configuration);
 
 // Registrar servicios de Infrastructure (DbContext y Repositorios)
-builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddInfrastructureServices(builder.Configuration, builder.Environment);
 
 // Configurar Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
@@ -75,17 +96,17 @@ builder.Services.AddSwaggerGen(options =>
 // Configurar CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("Development", policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins("http://localhost:3000", "http://localhost:4200", "http://localhost:8080", "https://localhost:3000", "https://localhost:4200")
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 
-    // Política restringida para producción (configurar según necesidad)
     options.AddPolicy("Production", policy =>
     {
-        policy.WithOrigins(builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? new[] { "http://localhost:3000" })
+        policy.WithOrigins(builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? new[] { "https://localhost:5001" })
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
@@ -109,12 +130,35 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = builder.Configuration["Jwt:Issuer"] ?? "GestorAdmi",
         ValidAudience = builder.Configuration["Jwt:Audience"] ?? "GestorAdmiClient",
         IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(
-            System.Text.Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"] ?? "your-secret-key-min-32-chars-long!!")),
+            System.Text.Encoding.UTF8.GetBytes(jwtKey)),
         ClockSkew = TimeSpan.Zero
     };
 });
 
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireAdminRole", policy =>
+        policy.RequireRole("Administrador", "Admin"));
+    options.AddPolicy("RequireUserRole", policy =>
+        policy.RequireAuthenticatedUser());
+});
+
+// Configurar rate limiting (solo en produccion y staging)
+if (!builder.Environment.IsEnvironment("Testing"))
+{
+    builder.Services.AddRateLimiter(options =>
+    {
+        options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+
+        options.AddFixedWindowLimiter("LoginPolicy", opt =>
+        {
+            opt.PermitLimit = 5;
+            opt.Window = TimeSpan.FromMinutes(1);
+            opt.QueueProcessingOrder = System.Threading.RateLimiting.QueueProcessingOrder.OldestFirst;
+            opt.QueueLimit = 0;
+        });
+    });
+}
 
 var app = builder.Build();
 
@@ -132,17 +176,23 @@ app.UseSwaggerUI(options =>
 app.UseSerilogRequestLogging();
 
 // Usar CORS (debe ir antes de UseHttpsRedirection para que los preflights no sean redirigidos)
-app.UseCors(app.Environment.IsDevelopment() ? "AllowAll" : "Production");
+app.UseCors(app.Environment.IsDevelopment() ? "Development" : "Production");
 
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+if (!app.Environment.IsEnvironment("Testing"))
+    app.UseRateLimiter();
 
 app.MapControllers();
 
 // Log de inicio
 Log.Information("GestorAdmi API iniciada en {Environment}", app.Environment.EnvironmentName);
+
+// Seed de datos de prueba (solo si las tablas están vacías)
+if (app.Environment.IsDevelopment())
+    await Infrastructure.Persistence.DataSeeder.SeedAsync(app.Services);
 
 app.Run();
 

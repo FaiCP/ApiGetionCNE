@@ -20,11 +20,7 @@ public class DeletePersonalCommandHandler : IRequestHandler<DeletePersonalComman
         {
             var persona = await _personalRepository.GetByIdAsync(id);
             if (persona != null)
-            {
-                persona.Borrado = true;
-                persona.UpdatedAt = DateTime.UtcNow;
-                await _personalRepository.UpdateAsync(persona);
-            }
+                await _personalRepository.DeleteAsync(persona);
         }
         return true;
     }

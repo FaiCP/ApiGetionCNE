@@ -6,6 +6,7 @@ using GestorAdmi.Tests.Integration.Infrastructure;
 
 namespace GestorAdmi.Tests.Integration.Tests;
 
+[Collection("IntegrationTests")]
 public class HardwareIntegrationTests : IClassFixture<CustomWebApplicationFactory>
 {
     private readonly HttpClient _client;
@@ -19,8 +20,9 @@ public class HardwareIntegrationTests : IClassFixture<CustomWebApplicationFactor
     {
         var response = await _client.PostAsJsonAsync("/login",
             new { Email = "admin@test.com", Password = "password123" });
+        response.EnsureSuccessStatusCode();
         var body = await response.Content.ReadFromJsonAsync<LoginResponse>();
-        return body!.Data!.Token;
+        return body!.Data!.Token!;
     }
 
     [Fact]

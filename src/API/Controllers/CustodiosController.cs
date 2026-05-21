@@ -54,6 +54,7 @@ public class CustodiosController : ControllerBase
     /// <summary>Crea un nuevo custodio</summary>
     /// <param name="request">Datos del custodio</param>
     /// <returns>ID del custodio creado</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<long>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -73,6 +74,7 @@ public class CustodiosController : ControllerBase
     /// <param name="id">ID del custodio a actualizar</param>
     /// <param name="request">Nuevos datos del custodio</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPut("Actualizar/{id}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -93,6 +95,7 @@ public class CustodiosController : ControllerBase
     /// <summary>Elimina (borrado lógico) custodios</summary>
     /// <param name="ids">Lista de IDs a eliminar</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpDelete("Eliminar")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]

@@ -20,11 +20,7 @@ public class DeleteGestionActivoCommandHandler : IRequestHandler<DeleteGestionAc
         {
             var gestionActivo = await _gestionActivoRepository.GetByIdAsync(id);
             if (gestionActivo != null)
-            {
-                gestionActivo.Borrado = true;
-                gestionActivo.UpdatedAt = DateTime.UtcNow;
-                await _gestionActivoRepository.UpdateAsync(gestionActivo);
-            }
+                await _gestionActivoRepository.DeleteAsync(gestionActivo);
         }
         return true;
     }

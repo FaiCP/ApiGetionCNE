@@ -20,11 +20,7 @@ public class DeleteKitCommandHandler : IRequestHandler<DeleteKitCommand, bool>
         {
             var kit = await _kitRepository.GetByIdAsync(id);
             if (kit != null)
-            {
-                kit.Borrado = true;
-                kit.UpdatedAt = DateTime.UtcNow;
-                await _kitRepository.UpdateAsync(kit);
-            }
+                await _kitRepository.DeleteAsync(kit);
         }
         return true;
     }

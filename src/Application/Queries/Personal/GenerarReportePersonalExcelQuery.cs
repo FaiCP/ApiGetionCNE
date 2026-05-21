@@ -1,7 +1,9 @@
+using Application.Common;
 using Application.DTOs.Documentos;
 using Application.Interfaces;
 using Domain.Interfaces;
 using MediatR;
+using Microsoft.Extensions.Options;
 
 namespace Application.Queries.Personal;
 
@@ -12,17 +14,23 @@ public class GenerarReportePersonalExcelQueryHandler : IRequestHandler<GenerarRe
     private readonly IGestionActivoRepository _gestionRepo;
     private readonly IPersonalRepository _personalRepo;
     private readonly IExcelService _excelService;
+    private readonly ReportSettings _settings;
 
-    public GenerarReportePersonalExcelQueryHandler(IGestionActivoRepository gestionRepo, IPersonalRepository personalRepo, IExcelService excelService)
+    public GenerarReportePersonalExcelQueryHandler(
+        IGestionActivoRepository gestionRepo,
+        IPersonalRepository personalRepo,
+        IExcelService excelService,
+        IOptions<ReportSettings> settings)
     {
         _gestionRepo = gestionRepo;
         _personalRepo = personalRepo;
         _excelService = excelService;
+        _settings = settings.Value;
     }
 
     public async Task<byte[]> Handle(GenerarReportePersonalExcelQuery request, CancellationToken cancellationToken)
     {
-        var fechaLimite = DateTime.Now.AddMonths(-6);
+        var fechaLimite = DateTime.Now.AddMonths(-_settings.RangoMesesReporte);
         var añoActual = DateTime.Now.Year;
 
         var equipos = await _gestionRepo.GetAllActiveWithDetailsAsync();
@@ -35,7 +43,7 @@ public class GenerarReportePersonalExcelQueryHandler : IRequestHandler<GenerarRe
             var custodio = g.Custodio?.Nombre ?? "";
             reporte.Add(new ReportePersonalItemDto(
                 g.FechaAsignacion,
-                "NELSON RICARDO CARDENAS HERMOZA-TECNICO ELECTORAL",
+                _settings.EntregaPersonalNombre,
                 custodio,
                 "X", null,
                 $"{g.Hardware?.NombreDispositivo}, Marca:{g.Hardware?.Marca}, Modelo:{g.Hardware?.Modelo}, Serie:{g.Hardware?.CodigoCne}"
@@ -46,10 +54,10 @@ public class GenerarReportePersonalExcelQueryHandler : IRequestHandler<GenerarRe
         {
             reporte.Add(new ReportePersonalItemDto(
                 p.Fecha,
-                "NELSON RICARDO CARDENAS HERMOZA-TECNICO ELECTORAL",
+                _settings.EntregaPersonalNombre,
                 p.Nombre,
                 null, "X",
-                "Credenciales Zimbra y Quipux"
+                _settings.CredencialesDescripcion
             ));
         }
 

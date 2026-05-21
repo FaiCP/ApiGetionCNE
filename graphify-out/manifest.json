@@ -1,0 +1,1272 @@
+{
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\appsettings.Development.json": {
+    "mtime": 1778090277.651206,
+    "ast_hash": "e8c3b486f47031864c15d2fdf1514181",
+    "semantic_hash": "e8c3b486f47031864c15d2fdf1514181"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\appsettings.Example.json": {
+    "mtime": 1778099184.519814,
+    "ast_hash": "8a66a579ec99c881d67147fb3c1ef720",
+    "semantic_hash": "8a66a579ec99c881d67147fb3c1ef720"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\appsettings.json": {
+    "mtime": 1778090260.539567,
+    "ast_hash": "b1acd051d1845ffc1827ca2eeabf12c2",
+    "semantic_hash": "b1acd051d1845ffc1827ca2eeabf12c2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\appsettings.Production.json": {
+    "mtime": 1778171980.9733524,
+    "ast_hash": "aa1c1be5af780a4cfa171f632930d184",
+    "semantic_hash": "aa1c1be5af780a4cfa171f632930d184"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Program.cs": {
+    "mtime": 1778168438.9635136,
+    "ast_hash": "16e11e89992df00386f2766387f3c0cb",
+    "semantic_hash": "16e11e89992df00386f2766387f3c0cb"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\API.deps.json": {
+    "mtime": 1778166894.9606204,
+    "ast_hash": "a39db1ff6ad48282da2a7f6b6321af5f",
+    "semantic_hash": "a39db1ff6ad48282da2a7f6b6321af5f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\API.runtimeconfig.json": {
+    "mtime": 1778166895.0430048,
+    "ast_hash": "37595336dae30b037bd95e5047b95825",
+    "semantic_hash": "37595336dae30b037bd95e5047b95825"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\API.staticwebassets.endpoints.json": {
+    "mtime": 1773696984.899856,
+    "ast_hash": "f44ca44dd881261586b84442f2201257",
+    "semantic_hash": "f44ca44dd881261586b84442f2201257"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\appsettings.Development.json": {
+    "mtime": 1778090277.651206,
+    "ast_hash": "e8c3b486f47031864c15d2fdf1514181",
+    "semantic_hash": "e8c3b486f47031864c15d2fdf1514181"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\appsettings.Example.json": {
+    "mtime": 1778099184.519814,
+    "ast_hash": "8a66a579ec99c881d67147fb3c1ef720",
+    "semantic_hash": "8a66a579ec99c881d67147fb3c1ef720"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\appsettings.json": {
+    "mtime": 1778090260.539567,
+    "ast_hash": "b1acd051d1845ffc1827ca2eeabf12c2",
+    "semantic_hash": "b1acd051d1845ffc1827ca2eeabf12c2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\appsettings.Production.json": {
+    "mtime": 1778171980.9733524,
+    "ast_hash": "aa1c1be5af780a4cfa171f632930d184",
+    "semantic_hash": "aa1c1be5af780a4cfa171f632930d184"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\BuildHost-netcore\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json": {
+    "mtime": 1763421306.0,
+    "ast_hash": "6a002d69baf7b85bfe11c404487f1905",
+    "semantic_hash": "6a002d69baf7b85bfe11c404487f1905"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Debug\\net10.0\\BuildHost-netcore\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json": {
+    "mtime": 1763421306.0,
+    "ast_hash": "4a59cbd5a00293f28ad2649fdda570f9",
+    "semantic_hash": "4a59cbd5a00293f28ad2649fdda570f9"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\API.deps.json": {
+    "mtime": 1778173634.702017,
+    "ast_hash": "a39db1ff6ad48282da2a7f6b6321af5f",
+    "semantic_hash": "a39db1ff6ad48282da2a7f6b6321af5f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\API.runtimeconfig.json": {
+    "mtime": 1778173634.7977872,
+    "ast_hash": "d60cf9618363ac73f5894cceaffc545e",
+    "semantic_hash": "d60cf9618363ac73f5894cceaffc545e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\API.staticwebassets.endpoints.json": {
+    "mtime": 1773900746.8922887,
+    "ast_hash": "f44ca44dd881261586b84442f2201257",
+    "semantic_hash": "f44ca44dd881261586b84442f2201257"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\appsettings.Development.json": {
+    "mtime": 1778090277.651206,
+    "ast_hash": "e8c3b486f47031864c15d2fdf1514181",
+    "semantic_hash": "e8c3b486f47031864c15d2fdf1514181"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\appsettings.Example.json": {
+    "mtime": 1778099184.519814,
+    "ast_hash": "8a66a579ec99c881d67147fb3c1ef720",
+    "semantic_hash": "8a66a579ec99c881d67147fb3c1ef720"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\appsettings.json": {
+    "mtime": 1778090260.539567,
+    "ast_hash": "b1acd051d1845ffc1827ca2eeabf12c2",
+    "semantic_hash": "b1acd051d1845ffc1827ca2eeabf12c2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\bin\\Release\\net10.0\\appsettings.Production.json": {
+    "mtime": 1778171980.9733524,
+    "ast_hash": "aa1c1be5af780a4cfa171f632930d184",
+    "semantic_hash": "aa1c1be5af780a4cfa171f632930d184"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\AuthController.cs": {
+    "mtime": 1778090743.3450344,
+    "ast_hash": "83ce48c4c646dc9eb2aed762cc748f97",
+    "semantic_hash": "83ce48c4c646dc9eb2aed762cc748f97"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\CaracteristicasController.cs": {
+    "mtime": 1778090634.445606,
+    "ast_hash": "0d91af60341971ca175292df12b30716",
+    "semantic_hash": "0d91af60341971ca175292df12b30716"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\CustodiosController.cs": {
+    "mtime": 1778090563.2841961,
+    "ast_hash": "367e2499cb2143a58cdc6227627f795c",
+    "semantic_hash": "367e2499cb2143a58cdc6227627f795c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\DepartamentosController.cs": {
+    "mtime": 1773694406.9628756,
+    "ast_hash": "a988364ec2c69a006cd4601d251ce602",
+    "semantic_hash": "a988364ec2c69a006cd4601d251ce602"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\GestionActivosController.cs": {
+    "mtime": 1778090584.14969,
+    "ast_hash": "8896deccca2804c09fb6bc0cf4e94ff4",
+    "semantic_hash": "8896deccca2804c09fb6bc0cf4e94ff4"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\HardwareController.cs": {
+    "mtime": 1778090573.2309656,
+    "ast_hash": "23c76ba596e6426f3c9ccc145894823a",
+    "semantic_hash": "23c76ba596e6426f3c9ccc145894823a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\HistorialPrestamosController.cs": {
+    "mtime": 1773694412.4668117,
+    "ast_hash": "2c73dea4f60f0a309669022ecc19bfd8",
+    "semantic_hash": "2c73dea4f60f0a309669022ecc19bfd8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\KitsController.cs": {
+    "mtime": 1778090592.8457575,
+    "ast_hash": "904baa50c7881719e1491676f28c1a30",
+    "semantic_hash": "904baa50c7881719e1491676f28c1a30"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\PersonalController.cs": {
+    "mtime": 1778163209.5548728,
+    "ast_hash": "b3e85b8a55bcb9c424b4b4336d2dbc8c",
+    "semantic_hash": "b3e85b8a55bcb9c424b4b4336d2dbc8c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\ReportesController.cs": {
+    "mtime": 1773693920.7752273,
+    "ast_hash": "6cc57d86bc80af5e03d2e1c0460500fc",
+    "semantic_hash": "6cc57d86bc80af5e03d2e1c0460500fc"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Controllers\\SuministrosController.cs": {
+    "mtime": 1778090628.7291753,
+    "ast_hash": "e4390400760c2b7a07c6245a25523ccb",
+    "semantic_hash": "e4390400760c2b7a07c6245a25523ccb"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Middleware\\GlobalExceptionHandlerMiddleware.cs": {
+    "mtime": 1778164645.9451518,
+    "ast_hash": "3a3b6aace86271a39fbab31ff3cb356d",
+    "semantic_hash": "3a3b6aace86271a39fbab31ff3cb356d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Models\\ApiResponse.cs": {
+    "mtime": 1773671970.4603462,
+    "ast_hash": "23c10d6d83e73aac8b7a6c4e6407e503",
+    "semantic_hash": "23c10d6d83e73aac8b7a6c4e6407e503"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\API.csproj.nuget.dgspec.json": {
+    "mtime": 1778518059.3981874,
+    "ast_hash": "88d5bb99c4a5d65e7722dbc4834eb424",
+    "semantic_hash": "88d5bb99c4a5d65e7722dbc4834eb424"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\project.assets.json": {
+    "mtime": 1778166773.9362085,
+    "ast_hash": "e5c4d7fd2175611edbda163eead058f5",
+    "semantic_hash": "e5c4d7fd2175611edbda163eead058f5"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778125102.5956206,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\API.AssemblyInfo.cs": {
+    "mtime": 1778125676.8341718,
+    "ast_hash": "e65c96cd36dd980989467c15d9b2b6c1",
+    "semantic_hash": "e65c96cd36dd980989467c15d9b2b6c1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\API.GlobalUsings.g.cs": {
+    "mtime": 1773672004.1831,
+    "ast_hash": "5b3fdaae7b59d230d7d136eab049a98a",
+    "semantic_hash": "5b3fdaae7b59d230d7d136eab049a98a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\API.MvcApplicationPartsAssemblyInfo.cs": {
+    "mtime": 1778166784.296254,
+    "ast_hash": "faf5b3f5d9352acc7271a14892ed1c6f",
+    "semantic_hash": "faf5b3f5d9352acc7271a14892ed1c6f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\API.sourcelink.json": {
+    "mtime": 1778090000.5742238,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\ApiEndpoints.json": {
+    "mtime": 1778518085.821486,
+    "ast_hash": "018c309a9ea95dd0d455d1ff0a0b4193",
+    "semantic_hash": "018c309a9ea95dd0d455d1ff0a0b4193"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json": {
+    "mtime": 1778169770.9944746,
+    "ast_hash": "2c67f92adebbeda20ac823eff0041a42",
+    "semantic_hash": "2c67f92adebbeda20ac823eff0041a42"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json": {
+    "mtime": 1778169770.9894454,
+    "ast_hash": "38a3b10df2a349d1b48196fd7073aaff",
+    "semantic_hash": "38a3b10df2a349d1b48196fd7073aaff"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json": {
+    "mtime": 1778518067.935984,
+    "ast_hash": "211128a2f65fa9135a3986a89d3840b8",
+    "semantic_hash": "211128a2f65fa9135a3986a89d3840b8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json": {
+    "mtime": 1773696984.899856,
+    "ast_hash": "f44ca44dd881261586b84442f2201257",
+    "semantic_hash": "f44ca44dd881261586b84442f2201257"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\staticwebassets.build.json": {
+    "mtime": 1773696984.8987436,
+    "ast_hash": "65bec3c41768f148c6f2303f858b6bc8",
+    "semantic_hash": "65bec3c41768f148c6f2303f858b6bc8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\EndpointInfo\\API.json": {
+    "mtime": 1778518086.2921917,
+    "ast_hash": "f8d41b3715c52f5724faea64e717d8c9",
+    "semantic_hash": "f8d41b3715c52f5724faea64e717d8c9"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778173631.6532247,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\API.AssemblyInfo.cs": {
+    "mtime": 1778173631.856406,
+    "ast_hash": "a4ad5af32c97d4222c3134e376af4b2e",
+    "semantic_hash": "a4ad5af32c97d4222c3134e376af4b2e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\API.deps.json": {
+    "mtime": 1778173718.7599335,
+    "ast_hash": "c28847fcc96e193b434b20d3703d4240",
+    "semantic_hash": "c28847fcc96e193b434b20d3703d4240"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\API.GlobalUsings.g.cs": {
+    "mtime": 1773900742.070791,
+    "ast_hash": "5b3fdaae7b59d230d7d136eab049a98a",
+    "semantic_hash": "5b3fdaae7b59d230d7d136eab049a98a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\API.MvcApplicationPartsAssemblyInfo.cs": {
+    "mtime": 1778173631.9997182,
+    "ast_hash": "faf5b3f5d9352acc7271a14892ed1c6f",
+    "semantic_hash": "faf5b3f5d9352acc7271a14892ed1c6f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\API.sourcelink.json": {
+    "mtime": 1778173632.068441,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\rjsmcshtml.dswa.cache.json": {
+    "mtime": 1778173634.0707026,
+    "ast_hash": "820029d6539e5348e0df1f67c047b934",
+    "semantic_hash": "820029d6539e5348e0df1f67c047b934"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\rjsmrazor.dswa.cache.json": {
+    "mtime": 1778173634.062695,
+    "ast_hash": "ba5bee388c0c2efad417fc8e61bf6f31",
+    "semantic_hash": "ba5bee388c0c2efad417fc8e61bf6f31"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\rpswa.dswa.cache.json": {
+    "mtime": 1778173631.540481,
+    "ast_hash": "211128a2f65fa9135a3986a89d3840b8",
+    "semantic_hash": "211128a2f65fa9135a3986a89d3840b8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\staticwebassets.build.endpoints.json": {
+    "mtime": 1773900746.8922887,
+    "ast_hash": "f44ca44dd881261586b84442f2201257",
+    "semantic_hash": "f44ca44dd881261586b84442f2201257"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\staticwebassets.build.json": {
+    "mtime": 1773900746.8789835,
+    "ast_hash": "65bec3c41768f148c6f2303f858b6bc8",
+    "semantic_hash": "65bec3c41768f148c6f2303f858b6bc8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\staticwebassets.publish.endpoints.json": {
+    "mtime": 1773900757.024163,
+    "ast_hash": "c257f74d704f9d4fdd2c1313d6fd7a72",
+    "semantic_hash": "c257f74d704f9d4fdd2c1313d6fd7a72"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\staticwebassets.publish.json": {
+    "mtime": 1773900757.0190787,
+    "ast_hash": "f967b4953a2bc94a4a0ff91251dbdbe2",
+    "semantic_hash": "f967b4953a2bc94a4a0ff91251dbdbe2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\Properties\\launchSettings.json": {
+    "mtime": 1773631536.9478092,
+    "ast_hash": "5a560a38fc568bfc21cd108d0a096b52",
+    "semantic_hash": "5a560a38fc568bfc21cd108d0a096b52"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DependencyInjection.cs": {
+    "mtime": 1778099302.0370157,
+    "ast_hash": "212e1b8087db727e8daca299e36d6ad4",
+    "semantic_hash": "212e1b8087db727e8daca299e36d6ad4"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\bin\\Debug\\net10.0\\Application.deps.json": {
+    "mtime": 1778125250.6754508,
+    "ast_hash": "1d5f5b021656aee3284b4731d61d2929",
+    "semantic_hash": "1d5f5b021656aee3284b4731d61d2929"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\bin\\Release\\net10.0\\Application.deps.json": {
+    "mtime": 1778173614.8720758,
+    "ast_hash": "1d5f5b021656aee3284b4731d61d2929",
+    "semantic_hash": "1d5f5b021656aee3284b4731d61d2929"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Auth\\LoginCommand.cs": {
+    "mtime": 1778090479.9590633,
+    "ast_hash": "abfa0cbb23dd7da436f1284fb835e7dc",
+    "semantic_hash": "abfa0cbb23dd7da436f1284fb835e7dc"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Custodios\\CreateCustodioCommand.cs": {
+    "mtime": 1773690146.985691,
+    "ast_hash": "4ec3f3d2320f5e4f39b3161d1a0cb8a8",
+    "semantic_hash": "4ec3f3d2320f5e4f39b3161d1a0cb8a8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Custodios\\DeleteCustodioCommand.cs": {
+    "mtime": 1778129732.9887528,
+    "ast_hash": "ad798692abfe76bafa568b9b8a7bb27b",
+    "semantic_hash": "ad798692abfe76bafa568b9b8a7bb27b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Custodios\\UpdateCustodioCommand.cs": {
+    "mtime": 1773690152.1275575,
+    "ast_hash": "2318f695a29b784369966c524f63fd77",
+    "semantic_hash": "2318f695a29b784369966c524f63fd77"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\GestionActivos\\CreateGestionActivosCommand.cs": {
+    "mtime": 1773690219.7860703,
+    "ast_hash": "9c8b2e38ac7c25b22b57ceb4a770777a",
+    "semantic_hash": "9c8b2e38ac7c25b22b57ceb4a770777a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\GestionActivos\\DeleteGestionActivoCommand.cs": {
+    "mtime": 1778129715.9757054,
+    "ast_hash": "e6b8d2e9c439e54f7f4cd9862645dcb1",
+    "semantic_hash": "e6b8d2e9c439e54f7f4cd9862645dcb1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\GestionActivos\\UpdateGestionActivoCommand.cs": {
+    "mtime": 1773848621.5763052,
+    "ast_hash": "d3db4860791373e2e71270fed8131286",
+    "semantic_hash": "d3db4860791373e2e71270fed8131286"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Hardware\\CreateCaracteristicaCommand.cs": {
+    "mtime": 1773690171.801142,
+    "ast_hash": "f3049daa8426a2a701ad5deaa9497b99",
+    "semantic_hash": "f3049daa8426a2a701ad5deaa9497b99"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Hardware\\CreateHardwareCommand.cs": {
+    "mtime": 1773690165.0655863,
+    "ast_hash": "ac25bfd23b0ce90abd5197823d7ca14e",
+    "semantic_hash": "ac25bfd23b0ce90abd5197823d7ca14e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Hardware\\DeleteHardwareCommand.cs": {
+    "mtime": 1778129722.1342108,
+    "ast_hash": "2b31a0c0452c1ba907798445f179e747",
+    "semantic_hash": "2b31a0c0452c1ba907798445f179e747"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Hardware\\UpdateHardwareCommand.cs": {
+    "mtime": 1773690167.725492,
+    "ast_hash": "6771ca90e35ea30536b6ad7034c0f716",
+    "semantic_hash": "6771ca90e35ea30536b6ad7034c0f716"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Kits\\CreateKitCommand.cs": {
+    "mtime": 1778109699.413534,
+    "ast_hash": "ed0ecf945bd9d1ae5bb4d9ed593e1f90",
+    "semantic_hash": "ed0ecf945bd9d1ae5bb4d9ed593e1f90"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Kits\\DeleteKitCommand.cs": {
+    "mtime": 1778129719.2320774,
+    "ast_hash": "35c4f08955a3ec603f59317eee8ada04",
+    "semantic_hash": "35c4f08955a3ec603f59317eee8ada04"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Kits\\UpdateKitCommand.cs": {
+    "mtime": 1778109699.8713315,
+    "ast_hash": "dd471e640b027fad6a36a4493e47644f",
+    "semantic_hash": "dd471e640b027fad6a36a4493e47644f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Personal\\AsignarAdminCommand.cs": {
+    "mtime": 1778168798.778761,
+    "ast_hash": "e95dc94181789f1847a387d73c7cf424",
+    "semantic_hash": "e95dc94181789f1847a387d73c7cf424"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Personal\\CreatePersonalCommand.cs": {
+    "mtime": 1773690135.05711,
+    "ast_hash": "71a55f6055bcb6dd13942cdea69edc09",
+    "semantic_hash": "71a55f6055bcb6dd13942cdea69edc09"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Personal\\DeletePersonalCommand.cs": {
+    "mtime": 1778129725.2078304,
+    "ast_hash": "4a8dbda683f6cd1f986d91f952e80625",
+    "semantic_hash": "4a8dbda683f6cd1f986d91f952e80625"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Personal\\UpdatePersonalCommand.cs": {
+    "mtime": 1773690137.864161,
+    "ast_hash": "05975cfed86a035a244c33010799104b",
+    "semantic_hash": "05975cfed86a035a244c33010799104b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Suministros\\CreateSuministroCommand.cs": {
+    "mtime": 1773690208.4032247,
+    "ast_hash": "2b4711165a8d08cd66fee772cc7f3b33",
+    "semantic_hash": "2b4711165a8d08cd66fee772cc7f3b33"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Suministros\\DeleteSuministroCommand.cs": {
+    "mtime": 1778129736.085281,
+    "ast_hash": "108d6af359b305969666845cc5003fae",
+    "semantic_hash": "108d6af359b305969666845cc5003fae"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Commands\\Suministros\\UpdateSuministroCommand.cs": {
+    "mtime": 1773690211.0187562,
+    "ast_hash": "7ee351ec87c4dbebd2fdbf13f8c88e59",
+    "semantic_hash": "7ee351ec87c4dbebd2fdbf13f8c88e59"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Common\\PaginatedResponse.cs": {
+    "mtime": 1773690508.540906,
+    "ast_hash": "f3c91b6581bb74f0bb9d1594bc9e5f15",
+    "semantic_hash": "f3c91b6581bb74f0bb9d1594bc9e5f15"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Common\\ReportSettings.cs": {
+    "mtime": 1778097164.8965755,
+    "ast_hash": "e6c192a270f79dc70dbee6b0d9dc1607",
+    "semantic_hash": "e6c192a270f79dc70dbee6b0d9dc1607"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Common\\ValidationBehavior.cs": {
+    "mtime": 1778097095.8426838,
+    "ast_hash": "26e3fbc947a52918c5cfb044122233f7",
+    "semantic_hash": "26e3fbc947a52918c5cfb044122233f7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Auth\\LoginRequestDto.cs": {
+    "mtime": 1773689408.83597,
+    "ast_hash": "cdde116a48f898df2523b9311076fd27",
+    "semantic_hash": "cdde116a48f898df2523b9311076fd27"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Auth\\LoginResponseDto.cs": {
+    "mtime": 1773689411.1989264,
+    "ast_hash": "2ff839c36900b11a15afe54afa8bf34e",
+    "semantic_hash": "2ff839c36900b11a15afe54afa8bf34e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Custodios\\CustodioDto.cs": {
+    "mtime": 1773689560.7508278,
+    "ast_hash": "154a65d0ebbdf0a4f5a478fe17045462",
+    "semantic_hash": "154a65d0ebbdf0a4f5a478fe17045462"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Departamentos\\DepartamentoDto.cs": {
+    "mtime": 1773689412.9924307,
+    "ast_hash": "464ab216f604b2913119e2db35a3dfcd",
+    "semantic_hash": "464ab216f604b2913119e2db35a3dfcd"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\CustodioActaItemDto.cs": {
+    "mtime": 1773691545.0532804,
+    "ast_hash": "c99adf1dc5de58d10f1dffb88cd94261",
+    "semantic_hash": "c99adf1dc5de58d10f1dffb88cd94261"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\GestionActivoActaItemDto.cs": {
+    "mtime": 1773691547.814412,
+    "ast_hash": "69ff62dbce935031427f7c04fb4e459d",
+    "semantic_hash": "69ff62dbce935031427f7c04fb4e459d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\HardwareActaItemDto.cs": {
+    "mtime": 1773691541.764255,
+    "ast_hash": "a4897bf09ba0144a90d24b281e2f8f43",
+    "semantic_hash": "a4897bf09ba0144a90d24b281e2f8f43"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\HistorialActaItemDto.cs": {
+    "mtime": 1773691548.4443154,
+    "ast_hash": "21eb55a9f3d73c2bb08e877b50dbe57d",
+    "semantic_hash": "21eb55a9f3d73c2bb08e877b50dbe57d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\KitActaItemDto.cs": {
+    "mtime": 1778109700.4090805,
+    "ast_hash": "055983cda6f2d33712d05ed18c5bee4c",
+    "semantic_hash": "055983cda6f2d33712d05ed18c5bee4c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\PersonalActaItemDto.cs": {
+    "mtime": 1778090776.4438903,
+    "ast_hash": "61bd0a34360c761a0d5ccf4dee4bb72c",
+    "semantic_hash": "61bd0a34360c761a0d5ccf4dee4bb72c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Documentos\\ReportePersonalItemDto.cs": {
+    "mtime": 1773691546.708116,
+    "ast_hash": "ec58456e53251fd3c47ad272080163af",
+    "semantic_hash": "ec58456e53251fd3c47ad272080163af"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\GestionActivos\\AsignacionEquipoDto.cs": {
+    "mtime": 1773689997.1175933,
+    "ast_hash": "d1f46d7a15ef427e39c5606b12ed6302",
+    "semantic_hash": "d1f46d7a15ef427e39c5606b12ed6302"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\GestionActivos\\GestionActivoDto.cs": {
+    "mtime": 1773848385.2054653,
+    "ast_hash": "f672c1d99a935629b0c3751b28d53a1a",
+    "semantic_hash": "f672c1d99a935629b0c3751b28d53a1a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Hardware\\CaracteristicaComputadoraDto.cs": {
+    "mtime": 1773689826.6512008,
+    "ast_hash": "c3749778209e6d43c0da6186221cea4d",
+    "semantic_hash": "c3749778209e6d43c0da6186221cea4d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Hardware\\HardwareCreateDto.cs": {
+    "mtime": 1773689644.5489824,
+    "ast_hash": "199500578dcb993868ef0086354ba603",
+    "semantic_hash": "199500578dcb993868ef0086354ba603"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Hardware\\HardwareDto.cs": {
+    "mtime": 1773689640.866902,
+    "ast_hash": "6cd8af37e48019532f96a96f6caf551d",
+    "semantic_hash": "6cd8af37e48019532f96a96f6caf551d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\HistorialPrestamos\\HistorialPrestamoDto.cs": {
+    "mtime": 1773689997.7749152,
+    "ast_hash": "d132778aad3c423a3ec586ecfb8fe951",
+    "semantic_hash": "d132778aad3c423a3ec586ecfb8fe951"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Kits\\KitDto.cs": {
+    "mtime": 1778109623.0100973,
+    "ast_hash": "3901f35d4abd61e50d443f3eb88e3390",
+    "semantic_hash": "3901f35d4abd61e50d443f3eb88e3390"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Personal\\CreatePersonalDto.cs": {
+    "mtime": 1778090326.8552787,
+    "ast_hash": "1f76813382d2c53478cb4d4ef178102d",
+    "semantic_hash": "1f76813382d2c53478cb4d4ef178102d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Personal\\PersonalDto.cs": {
+    "mtime": 1778090321.0580492,
+    "ast_hash": "03db2e5c952999837cd9faecad3c5a01",
+    "semantic_hash": "03db2e5c952999837cd9faecad3c5a01"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Personal\\UpdatePersonalDto.cs": {
+    "mtime": 1778090334.8878994,
+    "ast_hash": "f9294f21a90c3c530bea50b29ca3cddb",
+    "semantic_hash": "f9294f21a90c3c530bea50b29ca3cddb"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Reportes\\ReporteInventarioDto.cs": {
+    "mtime": 1773691567.518866,
+    "ast_hash": "fb84a38919e6986e14232b4e68a609ca",
+    "semantic_hash": "fb84a38919e6986e14232b4e68a609ca"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Reportes\\ReportePrestadosDto.cs": {
+    "mtime": 1773691568.373734,
+    "ast_hash": "01e7e8370f7ec202a1893fbac7300e94",
+    "semantic_hash": "01e7e8370f7ec202a1893fbac7300e94"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Reportes\\ReportePrestamosDto.cs": {
+    "mtime": 1773691567.9996336,
+    "ast_hash": "7064cfd379a6cde639b627725e1e7edf",
+    "semantic_hash": "7064cfd379a6cde639b627725e1e7edf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\DTOs\\Suministros\\SuministroDto.cs": {
+    "mtime": 1773689995.5693192,
+    "ast_hash": "bd92cbac4206775159d6571f025d7ac7",
+    "semantic_hash": "bd92cbac4206775159d6571f025d7ac7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Interfaces\\IExcelService.cs": {
+    "mtime": 1773691580.4517665,
+    "ast_hash": "93a899e5270bb75d4580fa83f96792af",
+    "semantic_hash": "93a899e5270bb75d4580fa83f96792af"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Interfaces\\IJwtService.cs": {
+    "mtime": 1778090466.2606988,
+    "ast_hash": "124493d993e292b8b102f908b6dd69b1",
+    "semantic_hash": "124493d993e292b8b102f908b6dd69b1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Interfaces\\IPasswordHasher.cs": {
+    "mtime": 1778090381.5783744,
+    "ast_hash": "f6e5a6183734da969ec853ca4cc3ce5d",
+    "semantic_hash": "f6e5a6183734da969ec853ca4cc3ce5d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Interfaces\\IPdfService.cs": {
+    "mtime": 1773691579.8309362,
+    "ast_hash": "f7e299ebcf2725b24b6d4dcf71d498fa",
+    "semantic_hash": "f7e299ebcf2725b24b6d4dcf71d498fa"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Mappings\\MappingProfile.cs": {
+    "mtime": 1778090351.0788422,
+    "ast_hash": "05d816fad09b6dc457847ead8e511bf9",
+    "semantic_hash": "05d816fad09b6dc457847ead8e511bf9"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Application.csproj.nuget.dgspec.json": {
+    "mtime": 1778518059.266001,
+    "ast_hash": "47cc570a45162f5199e88fdb5461dc57",
+    "semantic_hash": "47cc570a45162f5199e88fdb5461dc57"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\project.assets.json": {
+    "mtime": 1778125110.6268814,
+    "ast_hash": "54d440ab122886127ae8548469382ce0",
+    "semantic_hash": "54d440ab122886127ae8548469382ce0"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778125102.2115562,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Debug\\net10.0\\Application.AssemblyInfo.cs": {
+    "mtime": 1778089992.1377015,
+    "ast_hash": "515a9ec2bbcb617acdfafa79909b1704",
+    "semantic_hash": "515a9ec2bbcb617acdfafa79909b1704"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Debug\\net10.0\\Application.GlobalUsings.g.cs": {
+    "mtime": 1773672003.978315,
+    "ast_hash": "9706b2dbf69f7db452e8b0d5baf54dcf",
+    "semantic_hash": "9706b2dbf69f7db452e8b0d5baf54dcf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Debug\\net10.0\\Application.sourcelink.json": {
+    "mtime": 1778089992.164972,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Release\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778173612.9460762,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Release\\net10.0\\Application.AssemblyInfo.cs": {
+    "mtime": 1778173613.1446674,
+    "ast_hash": "05bc3c408f9b815776b9ae940560b0c5",
+    "semantic_hash": "05bc3c408f9b815776b9ae940560b0c5"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Release\\net10.0\\Application.GlobalUsings.g.cs": {
+    "mtime": 1773900731.1111233,
+    "ast_hash": "9706b2dbf69f7db452e8b0d5baf54dcf",
+    "semantic_hash": "9706b2dbf69f7db452e8b0d5baf54dcf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Release\\net10.0\\Application.sourcelink.json": {
+    "mtime": 1778173613.2279067,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Custodios\\GenerarActaCustodiosPdfQuery.cs": {
+    "mtime": 1773692055.3606296,
+    "ast_hash": "9d1ce8d605afd4c9a47d9afc6fa1f509",
+    "semantic_hash": "9d1ce8d605afd4c9a47d9afc6fa1f509"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Custodios\\GetCustodiosQuery.cs": {
+    "mtime": 1773690533.7147808,
+    "ast_hash": "4c9320182b3d31824d79444ea4f59cb2",
+    "semantic_hash": "4c9320182b3d31824d79444ea4f59cb2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Departamentos\\GetDepartamentosQuery.cs": {
+    "mtime": 1773690516.6044016,
+    "ast_hash": "fa048b625eff1fcda0cddadb55bc2b6e",
+    "semantic_hash": "fa048b625eff1fcda0cddadb55bc2b6e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\GestionActivos\\GenerarActaGestionActivosPdfQuery.cs": {
+    "mtime": 1773692158.9685786,
+    "ast_hash": "2e042c3133b5c2835e7075ec3bdfab43",
+    "semantic_hash": "2e042c3133b5c2835e7075ec3bdfab43"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\GestionActivos\\GenerarDevolucionGestionActivosPdfQuery.cs": {
+    "mtime": 1773692162.6498532,
+    "ast_hash": "ac43baa64fc213c6e1b490751ba350b0",
+    "semantic_hash": "ac43baa64fc213c6e1b490751ba350b0"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\GestionActivos\\GetGestionActivosQuery.cs": {
+    "mtime": 1773690557.2110412,
+    "ast_hash": "ba4544343791196137d83e5e33e477d7",
+    "semantic_hash": "ba4544343791196137d83e5e33e477d7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Hardware\\GenerarActaHardwareExcelQuery.cs": {
+    "mtime": 1773811738.4331799,
+    "ast_hash": "777f815fe8f95aad52e9082b65cccfcb",
+    "semantic_hash": "777f815fe8f95aad52e9082b65cccfcb"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Hardware\\GenerarActaHardwarePdfQuery.cs": {
+    "mtime": 1773811738.4497519,
+    "ast_hash": "f23ddcc8b3525598586dc2e149a87eb2",
+    "semantic_hash": "f23ddcc8b3525598586dc2e149a87eb2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Hardware\\GetHardwareQuery.cs": {
+    "mtime": 1773690540.3958917,
+    "ast_hash": "9d216d284629af649f1b0ffae06669e8",
+    "semantic_hash": "9d216d284629af649f1b0ffae06669e8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\HistorialPrestamos\\GenerarActaHistorialPrestamosPdfQuery.cs": {
+    "mtime": 1773692171.0551443,
+    "ast_hash": "17127cac66b112dbc509774f279eb8ef",
+    "semantic_hash": "17127cac66b112dbc509774f279eb8ef"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\HistorialPrestamos\\GetHistorialPrestamosQuery.cs": {
+    "mtime": 1773690559.0588098,
+    "ast_hash": "5ac1ceffa389aae852f4b1daa122fab1",
+    "semantic_hash": "5ac1ceffa389aae852f4b1daa122fab1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Kits\\GenerarActaKitsPdfQuery.cs": {
+    "mtime": 1773692152.97989,
+    "ast_hash": "7d312eb3c1351e42bdbfbcc1c035d37b",
+    "semantic_hash": "7d312eb3c1351e42bdbfbcc1c035d37b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Kits\\GetKitsQuery.cs": {
+    "mtime": 1773690554.9180357,
+    "ast_hash": "1ee961d7d1e8dd6b71d0920549a0fd72",
+    "semantic_hash": "1ee961d7d1e8dd6b71d0920549a0fd72"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Personal\\GenerarActaPersonalPdfQuery.cs": {
+    "mtime": 1778097118.9938412,
+    "ast_hash": "4faf1c8bdafa2ae7c1425bbf715eec47",
+    "semantic_hash": "4faf1c8bdafa2ae7c1425bbf715eec47"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Personal\\GenerarReportePersonalExcelQuery.cs": {
+    "mtime": 1778099173.3015447,
+    "ast_hash": "0c87a800d0cc566138a72cfea53d3d07",
+    "semantic_hash": "0c87a800d0cc566138a72cfea53d3d07"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Personal\\GenerarReportePersonalPdfQuery.cs": {
+    "mtime": 1778097192.2709422,
+    "ast_hash": "46cb0fb8374fee73b74b8159f36b909a",
+    "semantic_hash": "46cb0fb8374fee73b74b8159f36b909a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Personal\\GetPersonalQuery.cs": {
+    "mtime": 1773690520.8852117,
+    "ast_hash": "006600590b69c7c7a4c4784989eafe57",
+    "semantic_hash": "006600590b69c7c7a4c4784989eafe57"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Reportes\\GetEquiposPrestadosPorTipoQuery.cs": {
+    "mtime": 1773692033.3664052,
+    "ast_hash": "2b8bf6b4baaf353e4fab2dcf2d103bc2",
+    "semantic_hash": "2b8bf6b4baaf353e4fab2dcf2d103bc2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Reportes\\GetInventarioTotalQuery.cs": {
+    "mtime": 1773692025.9607117,
+    "ast_hash": "6e13c3cd85b5d847657cd72d322f6899",
+    "semantic_hash": "6e13c3cd85b5d847657cd72d322f6899"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Reportes\\GetPrestamosPorMesQuery.cs": {
+    "mtime": 1773692029.5302436,
+    "ast_hash": "d677a86e3476ccdd0e1a257c6831f53a",
+    "semantic_hash": "d677a86e3476ccdd0e1a257c6831f53a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Queries\\Suministros\\GetSuministrosQuery.cs": {
+    "mtime": 1773690555.7088993,
+    "ast_hash": "0f07bd5a3c5af059e9d1a59f9baffe74",
+    "semantic_hash": "0f07bd5a3c5af059e9d1a59f9baffe74"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\Auth\\LoginCommandValidator.cs": {
+    "mtime": 1778097074.9690163,
+    "ast_hash": "9125f28fae3dc85824a538fe69542d4d",
+    "semantic_hash": "9125f28fae3dc85824a538fe69542d4d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\Custodios\\CreateCustodioCommandValidator.cs": {
+    "mtime": 1778097079.8838344,
+    "ast_hash": "c8cd1a327d158ad5d40a413605a593c2",
+    "semantic_hash": "c8cd1a327d158ad5d40a413605a593c2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\GestionActivos\\CreateGestionActivosCommandValidator.cs": {
+    "mtime": 1778097085.6495607,
+    "ast_hash": "eef461daf6194804f1dd8074b69cf807",
+    "semantic_hash": "eef461daf6194804f1dd8074b69cf807"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\Hardware\\CreateHardwareCommandValidator.cs": {
+    "mtime": 1778097077.5211313,
+    "ast_hash": "823f59e2473ee24eab906358bf73df20",
+    "semantic_hash": "823f59e2473ee24eab906358bf73df20"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\Kits\\CreateKitCommandValidator.cs": {
+    "mtime": 1778109704.634712,
+    "ast_hash": "9edfc1062ffec6f93d15109e28759fff",
+    "semantic_hash": "9edfc1062ffec6f93d15109e28759fff"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\Personal\\CreatePersonalCommandValidator.cs": {
+    "mtime": 1778097083.2394774,
+    "ast_hash": "2526620dbea0c4af7c17a457e684eb22",
+    "semantic_hash": "2526620dbea0c4af7c17a457e684eb22"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\Validators\\Suministros\\CreateSuministroCommandValidator.cs": {
+    "mtime": 1778097089.3080935,
+    "ast_hash": "8db90e1bef13b7fc868f3ed327710d79",
+    "semantic_hash": "8db90e1bef13b7fc868f3ed327710d79"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\bin\\Debug\\net10.0\\Domain.deps.json": {
+    "mtime": 1778125248.0506325,
+    "ast_hash": "f33642ff99b8caad7e8c14d1f5c77b4c",
+    "semantic_hash": "f33642ff99b8caad7e8c14d1f5c77b4c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\bin\\Release\\net10.0\\Domain.deps.json": {
+    "mtime": 1778173612.70136,
+    "ast_hash": "f33642ff99b8caad7e8c14d1f5c77b4c",
+    "semantic_hash": "f33642ff99b8caad7e8c14d1f5c77b4c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\BaseEntity.cs": {
+    "mtime": 1773811550.406346,
+    "ast_hash": "cca1de67942b506952e9f72284dc93f7",
+    "semantic_hash": "cca1de67942b506952e9f72284dc93f7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\CaracteristicaComputadora.cs": {
+    "mtime": 1773855428.2388873,
+    "ast_hash": "f5de04d6abd66973f010e6b547dc4233",
+    "semantic_hash": "f5de04d6abd66973f010e6b547dc4233"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\ControlActivo.cs": {
+    "mtime": 1773855493.6395502,
+    "ast_hash": "c7b1939ac4de8f029de3e1b415d6ab19",
+    "semantic_hash": "c7b1939ac4de8f029de3e1b415d6ab19"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Custodio.cs": {
+    "mtime": 1773848578.7021058,
+    "ast_hash": "fef8ad086033b56f404c8972a58271ef",
+    "semantic_hash": "fef8ad086033b56f404c8972a58271ef"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Departamento.cs": {
+    "mtime": 1773672461.2799401,
+    "ast_hash": "9f44dc97eafc19b7ff646921dc519988",
+    "semantic_hash": "9f44dc97eafc19b7ff646921dc519988"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\GestionActivo.cs": {
+    "mtime": 1773848557.17269,
+    "ast_hash": "f3f32fac0e7b1fe91a209851fa5d2266",
+    "semantic_hash": "f3f32fac0e7b1fe91a209851fa5d2266"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Hardware.cs": {
+    "mtime": 1773848571.3479238,
+    "ast_hash": "1e69ba7b40cb28a82900bab3a0aa40f3",
+    "semantic_hash": "1e69ba7b40cb28a82900bab3a0aa40f3"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\HistorialCustodio.cs": {
+    "mtime": 1773672507.7258866,
+    "ast_hash": "48de936877144c8379f4fe08e2238ba1",
+    "semantic_hash": "48de936877144c8379f4fe08e2238ba1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Kit.cs": {
+    "mtime": 1778109619.0346725,
+    "ast_hash": "1f855f504cc5b1c577c23451a447c960",
+    "semantic_hash": "1f855f504cc5b1c577c23451a447c960"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Persona.cs": {
+    "mtime": 1773672501.0566783,
+    "ast_hash": "e02f2061826230811c3c22ede15bbf1b",
+    "semantic_hash": "e02f2061826230811c3c22ede15bbf1b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Suministro.cs": {
+    "mtime": 1773855499.1527824,
+    "ast_hash": "7ba491c351c2e9ffc6693564e23a612a",
+    "semantic_hash": "7ba491c351c2e9ffc6693564e23a612a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Entities\\Usuario.cs": {
+    "mtime": 1778128383.8484452,
+    "ast_hash": "e35f425bd1eaccf0c515bc7eca313bc3",
+    "semantic_hash": "e35f425bd1eaccf0c515bc7eca313bc3"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Enums\\EstadoEquipo.cs": {
+    "mtime": 1778096875.5668724,
+    "ast_hash": "27b6686462e74a7e54507f0927dadd9c",
+    "semantic_hash": "27b6686462e74a7e54507f0927dadd9c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Enums\\EstadoKit.cs": {
+    "mtime": 1778096877.8670907,
+    "ast_hash": "75481bcb4b8ec188d447ec949b49e571",
+    "semantic_hash": "75481bcb4b8ec188d447ec949b49e571"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Enums\\TipoSuministro.cs": {
+    "mtime": 1778096876.8997223,
+    "ast_hash": "989277e6dc51e62a46d301fe2419cb3d",
+    "semantic_hash": "989277e6dc51e62a46d301fe2419cb3d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Exceptions\\DomainException.cs": {
+    "mtime": 1773685951.7354958,
+    "ast_hash": "36c6b9a41562013264c8b8783bc85b56",
+    "semantic_hash": "36c6b9a41562013264c8b8783bc85b56"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Exceptions\\NotFoundException.cs": {
+    "mtime": 1773685952.9623454,
+    "ast_hash": "8c4f041bbabfe88447689c62281de43f",
+    "semantic_hash": "8c4f041bbabfe88447689c62281de43f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Exceptions\\ValidationException.cs": {
+    "mtime": 1773685954.4782884,
+    "ast_hash": "bb5e7bf9fd981bff477059d40e7d5f1d",
+    "semantic_hash": "bb5e7bf9fd981bff477059d40e7d5f1d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\ICustodioRepository.cs": {
+    "mtime": 1773684904.9643192,
+    "ast_hash": "e99258424eb0172c93d5a80af361eb2a",
+    "semantic_hash": "e99258424eb0172c93d5a80af361eb2a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IDepartamentoRepository.cs": {
+    "mtime": 1773690023.6832058,
+    "ast_hash": "4a605c43ea8e695cbb06748c2113806e",
+    "semantic_hash": "4a605c43ea8e695cbb06748c2113806e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IGenericRepository.cs": {
+    "mtime": 1773684902.6941528,
+    "ast_hash": "9c16c189b80ca8f8d9db8043fffb0149",
+    "semantic_hash": "9c16c189b80ca8f8d9db8043fffb0149"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IGestionActivoRepository.cs": {
+    "mtime": 1773691591.4714272,
+    "ast_hash": "8a632476b3fd221942608de9d0416809",
+    "semantic_hash": "8a632476b3fd221942608de9d0416809"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IHardwareRepository.cs": {
+    "mtime": 1773691588.7157142,
+    "ast_hash": "4b696b2b93a993d4c3a612d94dc16549",
+    "semantic_hash": "4b696b2b93a993d4c3a612d94dc16549"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IHistorialCustodioRepository.cs": {
+    "mtime": 1773690067.7187986,
+    "ast_hash": "2230dd68af1865dcb41d5d29bb836ab0",
+    "semantic_hash": "2230dd68af1865dcb41d5d29bb836ab0"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IKitRepository.cs": {
+    "mtime": 1773691593.7800837,
+    "ast_hash": "297552e1586c98d55f743ad0c87d412d",
+    "semantic_hash": "297552e1586c98d55f743ad0c87d412d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IPersonalRepository.cs": {
+    "mtime": 1773691592.641051,
+    "ast_hash": "13d29f3a7b7ff06ea086c7b0751a279c",
+    "semantic_hash": "13d29f3a7b7ff06ea086c7b0751a279c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\ISuministroRepository.cs": {
+    "mtime": 1773690066.2643754,
+    "ast_hash": "5d17b4a68d6a9265b5b2c6360799a104",
+    "semantic_hash": "5d17b4a68d6a9265b5b2c6360799a104"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\Interfaces\\IUsuarioRepository.cs": {
+    "mtime": 1773684905.4173775,
+    "ast_hash": "2afb6b756425c653fe11da658f3e4fd3",
+    "semantic_hash": "2afb6b756425c653fe11da658f3e4fd3"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Domain.csproj.nuget.dgspec.json": {
+    "mtime": 1778518057.3941588,
+    "ast_hash": "87a896130797ac45863bbd00643f5371",
+    "semantic_hash": "87a896130797ac45863bbd00643f5371"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\project.assets.json": {
+    "mtime": 1778125110.0071113,
+    "ast_hash": "8ea11c1c885e455b22e6329dbf1c5537",
+    "semantic_hash": "8ea11c1c885e455b22e6329dbf1c5537"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778125099.9290814,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Debug\\net10.0\\Domain.AssemblyInfo.cs": {
+    "mtime": 1778089990.005049,
+    "ast_hash": "b30e316babef8970d41d556ff8f00d25",
+    "semantic_hash": "b30e316babef8970d41d556ff8f00d25"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Debug\\net10.0\\Domain.GlobalUsings.g.cs": {
+    "mtime": 1773672003.978315,
+    "ast_hash": "9706b2dbf69f7db452e8b0d5baf54dcf",
+    "semantic_hash": "9706b2dbf69f7db452e8b0d5baf54dcf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Debug\\net10.0\\Domain.sourcelink.json": {
+    "mtime": 1778089990.033259,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Release\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778173606.597617,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Release\\net10.0\\Domain.AssemblyInfo.cs": {
+    "mtime": 1778173606.8691633,
+    "ast_hash": "4b3c67a464b5cddce1764f54a644929a",
+    "semantic_hash": "4b3c67a464b5cddce1764f54a644929a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Release\\net10.0\\Domain.GlobalUsings.g.cs": {
+    "mtime": 1773900731.1332684,
+    "ast_hash": "9706b2dbf69f7db452e8b0d5baf54dcf",
+    "semantic_hash": "9706b2dbf69f7db452e8b0d5baf54dcf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Release\\net10.0\\Domain.sourcelink.json": {
+    "mtime": 1778173606.9678948,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\DependencyInjection.cs": {
+    "mtime": 1778110184.2154841,
+    "ast_hash": "71c2588782ca31843b173dd8ba3bb841",
+    "semantic_hash": "71c2588782ca31843b173dd8ba3bb841"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\bin\\Debug\\net10.0\\Infrastructure.deps.json": {
+    "mtime": 1778125256.3056424,
+    "ast_hash": "afb43127a3447730c15f8fb7f762a5c7",
+    "semantic_hash": "afb43127a3447730c15f8fb7f762a5c7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\bin\\Debug\\net10.0\\Infrastructure.runtimeconfig.json": {
+    "mtime": 1778125256.3751905,
+    "ast_hash": "7b716426e1deaae021de466b00b9f803",
+    "semantic_hash": "7b716426e1deaae021de466b00b9f803"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\bin\\Release\\net10.0\\Infrastructure.deps.json": {
+    "mtime": 1778173631.044138,
+    "ast_hash": "afb43127a3447730c15f8fb7f762a5c7",
+    "semantic_hash": "afb43127a3447730c15f8fb7f762a5c7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\bin\\Release\\net10.0\\Infrastructure.runtimeconfig.json": {
+    "mtime": 1778173631.1588597,
+    "ast_hash": "83d85af07448d5b73e11a316a264aa5c",
+    "semantic_hash": "83d85af07448d5b73e11a316a264aa5c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Migrations\\20260507151525_InitialCreate.cs": {
+    "mtime": 1778166926.1521797,
+    "ast_hash": "52be1ef847bb9f19155606774457c0d7",
+    "semantic_hash": "52be1ef847bb9f19155606774457c0d7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Migrations\\20260507151525_InitialCreate.Designer.cs": {
+    "mtime": 1778166926.154389,
+    "ast_hash": "508081aa379f30bb76f30925087b6722",
+    "semantic_hash": "508081aa379f30bb76f30925087b6722"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs": {
+    "mtime": 1778166926.1561184,
+    "ast_hash": "227816ee10f8e357d556c3a89bf11ace",
+    "semantic_hash": "227816ee10f8e357d556c3a89bf11ace"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Infrastructure.csproj.nuget.dgspec.json": {
+    "mtime": 1778518059.332971,
+    "ast_hash": "94ed9c0da3da85392608cf3a2cda8701",
+    "semantic_hash": "94ed9c0da3da85392608cf3a2cda8701"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\project.assets.json": {
+    "mtime": 1778125110.6358793,
+    "ast_hash": "cdcb83fe396b6944525584d360a7be27",
+    "semantic_hash": "cdcb83fe396b6944525584d360a7be27"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778125102.6305242,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Debug\\net10.0\\Infrastructure.AssemblyInfo.cs": {
+    "mtime": 1778089994.940547,
+    "ast_hash": "f906d1ad6b376e9155b10dbc3390fff2",
+    "semantic_hash": "f906d1ad6b376e9155b10dbc3390fff2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Debug\\net10.0\\Infrastructure.GlobalUsings.g.cs": {
+    "mtime": 1773672003.978315,
+    "ast_hash": "9706b2dbf69f7db452e8b0d5baf54dcf",
+    "semantic_hash": "9706b2dbf69f7db452e8b0d5baf54dcf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Debug\\net10.0\\Infrastructure.sourcelink.json": {
+    "mtime": 1778089995.0339863,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Release\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1778173628.8425255,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": "8479efdf06e2d26e053d27ffa6964185"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Release\\net10.0\\Infrastructure.AssemblyInfo.cs": {
+    "mtime": 1778173628.9138677,
+    "ast_hash": "f30eb23119895b571bbb7fc4fcd98de8",
+    "semantic_hash": "f30eb23119895b571bbb7fc4fcd98de8"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Release\\net10.0\\Infrastructure.GlobalUsings.g.cs": {
+    "mtime": 1773900742.059612,
+    "ast_hash": "9706b2dbf69f7db452e8b0d5baf54dcf",
+    "semantic_hash": "9706b2dbf69f7db452e8b0d5baf54dcf"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Release\\net10.0\\Infrastructure.sourcelink.json": {
+    "mtime": 1778173628.9426162,
+    "ast_hash": "b9836575a134d14660e76c1923a61fc6",
+    "semantic_hash": "b9836575a134d14660e76c1923a61fc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Persistence\\ApplicationDbContext.cs": {
+    "mtime": 1778128387.5455368,
+    "ast_hash": "edc35dacaa6e839cdbfa4084c4daab9c",
+    "semantic_hash": "edc35dacaa6e839cdbfa4084c4daab9c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Persistence\\DataSeeder.cs": {
+    "mtime": 1778168433.0860207,
+    "ast_hash": "bf1cc110b1450086592e4664fc3db03b",
+    "semantic_hash": "bf1cc110b1450086592e4664fc3db03b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\CustodioRepository.cs": {
+    "mtime": 1773852156.6081934,
+    "ast_hash": "711d354a6bb35b09d5db448e24ca9bda",
+    "semantic_hash": "711d354a6bb35b09d5db448e24ca9bda"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\DepartamentoRepository.cs": {
+    "mtime": 1773814435.2593393,
+    "ast_hash": "db2e9a268dc9582c159721428bc6a2ce",
+    "semantic_hash": "db2e9a268dc9582c159721428bc6a2ce"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\GenericRepository.cs": {
+    "mtime": 1773685022.671178,
+    "ast_hash": "afb337f5ad51937afeb9bcfd72645cd6",
+    "semantic_hash": "afb337f5ad51937afeb9bcfd72645cd6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\GestionActivoRepository.cs": {
+    "mtime": 1773848410.8087373,
+    "ast_hash": "24bd519f4869920d638978ffa3aa80a1",
+    "semantic_hash": "24bd519f4869920d638978ffa3aa80a1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\HardwareRepository.cs": {
+    "mtime": 1773851455.6342669,
+    "ast_hash": "dfb91c3bd2df5d53718036a9700a477b",
+    "semantic_hash": "dfb91c3bd2df5d53718036a9700a477b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\HistorialCustodioRepository.cs": {
+    "mtime": 1773690102.2146947,
+    "ast_hash": "aff8789237fae1261f563b05ccf486af",
+    "semantic_hash": "aff8789237fae1261f563b05ccf486af"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\KitRepository.cs": {
+    "mtime": 1773851324.0154822,
+    "ast_hash": "41f8ce274f964ca21efd8a257d886d7c",
+    "semantic_hash": "41f8ce274f964ca21efd8a257d886d7c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\PersonalRepository.cs": {
+    "mtime": 1773852210.3326106,
+    "ast_hash": "a79b7599793d3c2df468a0fbad9ae37e",
+    "semantic_hash": "a79b7599793d3c2df468a0fbad9ae37e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\SuministroRepository.cs": {
+    "mtime": 1773852200.7319221,
+    "ast_hash": "14e102c99b8bc317db0d551977b2953c",
+    "semantic_hash": "14e102c99b8bc317db0d551977b2953c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Repositories\\UsuarioRepository.cs": {
+    "mtime": 1778090428.4309437,
+    "ast_hash": "9e056ca305d6a3df5782878ce199d7b4",
+    "semantic_hash": "9e056ca305d6a3df5782878ce199d7b4"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Services\\EncabezadoPageEvent.cs": {
+    "mtime": 1773857319.3760874,
+    "ast_hash": "1c58580de728fc7177b78f6383bbdcdd",
+    "semantic_hash": "1c58580de728fc7177b78f6383bbdcdd"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Services\\ExcelService.cs": {
+    "mtime": 1773692018.8840892,
+    "ast_hash": "9cf358032f6ea9206e73e197051b502f",
+    "semantic_hash": "9cf358032f6ea9206e73e197051b502f"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Services\\JwtService.cs": {
+    "mtime": 1778128390.5765839,
+    "ast_hash": "42f1bf45d606c7e5f0f6a4f119dd3cc1",
+    "semantic_hash": "42f1bf45d606c7e5f0f6a4f119dd3cc1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Services\\PasswordHasher.cs": {
+    "mtime": 1778090388.3284104,
+    "ast_hash": "8d7f0794b29452b010b8f574677752d5",
+    "semantic_hash": "8d7f0794b29452b010b8f574677752d5"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\Services\\PdfService.cs": {
+    "mtime": 1778109710.399551,
+    "ast_hash": "bdf336de022e0d951709800061cc0bc6",
+    "semantic_hash": "bdf336de022e0d951709800061cc0bc6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260316.txt": {
+    "mtime": 1773706042.0150301,
+    "ast_hash": "d9f07475b8ddd7cf8b5559cdb4c0f332",
+    "semantic_hash": "d9f07475b8ddd7cf8b5559cdb4c0f332"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260317.txt": {
+    "mtime": 1773809839.5891728,
+    "ast_hash": "2b914c635c1abc643ed48a1be100dd6b",
+    "semantic_hash": "2b914c635c1abc643ed48a1be100dd6b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260318.txt": {
+    "mtime": 1773896348.8644538,
+    "ast_hash": "99213d3b0d86779e20f92e54d174f23b",
+    "semantic_hash": "99213d3b0d86779e20f92e54d174f23b"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260319.txt": {
+    "mtime": 1773898307.736552,
+    "ast_hash": "ec0ab0b51033d1fd71a877f10ab0e875",
+    "semantic_hash": "ec0ab0b51033d1fd71a877f10ab0e875"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260325.txt": {
+    "mtime": 1774471889.4425218,
+    "ast_hash": "7c06b7ccca6e74f6f31c2ece1f703101",
+    "semantic_hash": "7c06b7ccca6e74f6f31c2ece1f703101"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260506.txt": {
+    "mtime": 1778129876.5390925,
+    "ast_hash": "9f40262de2913d48f45960c80bfb550a",
+    "semantic_hash": "9f40262de2913d48f45960c80bfb550a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260507.txt": {
+    "mtime": 1778166615.2125366,
+    "ast_hash": "e7c38c279bead9edebf5505ae7178127",
+    "semantic_hash": "e7c38c279bead9edebf5505ae7178127"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260507_001.txt": {
+    "mtime": 1778167018.136083,
+    "ast_hash": "23a03307f4c39372d70d02ea564a4ad2",
+    "semantic_hash": "23a03307f4c39372d70d02ea564a4ad2"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260507_002.txt": {
+    "mtime": 1778170693.2119098,
+    "ast_hash": "bb3c4aeee84f47b0fb665b12c132f212",
+    "semantic_hash": "bb3c4aeee84f47b0fb665b12c132f212"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\logs\\log-20260511.txt": {
+    "mtime": 1778524984.1718943,
+    "ast_hash": "c03a972f15dc83f4377e7a488ee42b6a",
+    "semantic_hash": "c03a972f15dc83f4377e7a488ee42b6a"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\API.csproj.FileListAbsolute.txt": {
+    "mtime": 1778167147.8766205,
+    "ast_hash": "e83924ed3bdad688c51c5dfdd55450fe",
+    "semantic_hash": "e83924ed3bdad688c51c5dfdd55450fe"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\staticwebassets.references.upToDateCheck.txt": {
+    "mtime": 1773705766.1917276,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Debug\\net10.0\\staticwebassets.removed.txt": {
+    "mtime": 1773705754.0862842,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\API.csproj.FileListAbsolute.txt": {
+    "mtime": 1778173634.845933,
+    "ast_hash": "70ab74ac58175469adea694319a6296c",
+    "semantic_hash": "70ab74ac58175469adea694319a6296c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\PublishOutputs.024575a2e2.txt": {
+    "mtime": 1773921913.491335,
+    "ast_hash": "ed0ec634b562a94d807d9684901b88b7",
+    "semantic_hash": "ed0ec634b562a94d807d9684901b88b7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\API\\obj\\Release\\net10.0\\PublishOutputs.9d36ae33b2.txt": {
+    "mtime": 1778174033.6496675,
+    "ast_hash": "7c3d12a8f8afc9f53c8eddb99a53aa4c",
+    "semantic_hash": "7c3d12a8f8afc9f53c8eddb99a53aa4c"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Debug\\net10.0\\Application.csproj.FileListAbsolute.txt": {
+    "mtime": 1778089994.4286206,
+    "ast_hash": "1552fcd88aa50444fac9cfd8ddacf1e1",
+    "semantic_hash": "1552fcd88aa50444fac9cfd8ddacf1e1"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Application\\obj\\Release\\net10.0\\Application.csproj.FileListAbsolute.txt": {
+    "mtime": 1778173614.907338,
+    "ast_hash": "a9147c632f0657a289b6823db2b95c6d",
+    "semantic_hash": "a9147c632f0657a289b6823db2b95c6d"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Debug\\net10.0\\Domain.csproj.FileListAbsolute.txt": {
+    "mtime": 1778089991.9061947,
+    "ast_hash": "df2a3255180302484e067633db746b87",
+    "semantic_hash": "df2a3255180302484e067633db746b87"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Domain\\obj\\Release\\net10.0\\Domain.csproj.FileListAbsolute.txt": {
+    "mtime": 1778173612.747043,
+    "ast_hash": "7af9699298e5c70dd7ce7d0d463958c7",
+    "semantic_hash": "7af9699298e5c70dd7ce7d0d463958c7"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Debug\\net10.0\\Infrastructure.csproj.FileListAbsolute.txt": {
+    "mtime": 1778089999.590768,
+    "ast_hash": "0381a6ea40d8c2a19945b0a1e29b5ce6",
+    "semantic_hash": "0381a6ea40d8c2a19945b0a1e29b5ce6"
+  },
+  "C:\\Users\\luis\\Desktop\\Otros\\GestorAdmi-master\\GestorAdmi.Core\\src\\Infrastructure\\obj\\Release\\net10.0\\Infrastructure.csproj.FileListAbsolute.txt": {
+    "mtime": 1778173631.1826499,
+    "ast_hash": "2f118d9325ed607ab180a3c877a20811",
+    "semantic_hash": "2f118d9325ed607ab180a3c877a20811"
+  }
+}

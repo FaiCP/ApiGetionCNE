@@ -42,6 +42,7 @@ public class PersonalController : ControllerBase
     /// <summary>Genera el acta de entrega-recepción de credenciales para el personal indicado (PDF)</summary>
     /// <param name="ids">Lista de IDs de personal</param>
     /// <returns>Archivo PDF del acta</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpGet("GenerarActa")]
     [ProducesResponseType(typeof(FileContentResult), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]
@@ -55,6 +56,7 @@ public class PersonalController : ControllerBase
 
     /// <summary>Genera el reporte de entrega-recepción de equipos y sistemas (PDF)</summary>
     /// <returns>Archivo PDF del reporte</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpGet("GenerarReporte")]
     [ProducesResponseType(typeof(FileContentResult), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
@@ -67,11 +69,12 @@ public class PersonalController : ControllerBase
 
     /// <summary>Genera el reporte de entrega-recepción de equipos y sistemas (Excel)</summary>
     /// <returns>Archivo Excel del reporte</returns>
-    [HttpGet("GenerarReporteExel")]
+    [Authorize(Policy = "RequireAdminRole")]
+    [HttpGet("GenerarReporteExcel")]
     [ProducesResponseType(typeof(FileContentResult), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GenerarReporteExel()
+    public async Task<IActionResult> GenerarReporteExcel()
     {
         var bytes = await _mediator.Send(new GenerarReportePersonalExcelQuery());
         return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "reporte_personal.xlsx");
@@ -80,12 +83,13 @@ public class PersonalController : ControllerBase
     /// <summary>Crea un nuevo registro de personal</summary>
     /// <param name="request">Datos del personal</param>
     /// <returns>ID del personal creado</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<long>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> Crear([FromBody] PersonalDto request)
+    public async Task<IActionResult> Crear([FromBody] CreatePersonalDto request)
     {
         var id = await _mediator.Send(new CreatePersonalCommand(
             request.Nombre,
@@ -101,13 +105,14 @@ public class PersonalController : ControllerBase
     /// <param name="id">ID del personal a actualizar</param>
     /// <param name="request">Nuevos datos del personal</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPut("Actualizar/{id}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> Actualizar(long id, [FromBody] PersonalDto request)
+    public async Task<IActionResult> Actualizar(long id, [FromBody] UpdatePersonalDto request)
     {
         var result = await _mediator.Send(new UpdatePersonalCommand(
             id,
@@ -120,9 +125,25 @@ public class PersonalController : ControllerBase
         return Ok(ApiResponse<bool>.Ok(result));
     }
 
+    /// <summary>Asigna el rol de Administrador a un usuario existente vinculado al personal indicado</summary>
+    /// <param name="id">ID del personal a promover</param>
+    /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
+    [HttpPut("AsignarAdmin/{id}")]
+    [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]
+    [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> AsignarAdmin(long id)
+    {
+        var result = await _mediator.Send(new AsignarAdminCommand(id));
+        return Ok(ApiResponse<bool>.Ok(result));
+    }
+
     /// <summary>Elimina (borrado lógico) registros de personal</summary>
     /// <param name="ids">Lista de IDs a eliminar</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpDelete("Eliminar")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]

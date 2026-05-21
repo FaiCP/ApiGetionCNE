@@ -145,7 +145,7 @@ public class ApplicationDbContext : DbContext
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Insumo).HasColumnName("INSUMO").HasMaxLength(255);
-            entity.Property(e => e.Cantidad).HasColumnName("CANTIDAD").HasMaxLength(255);
+            entity.Property(e => e.Cantidad).HasColumnName("CANTIDAD");
             entity.Property(e => e.Estado).HasColumnName("ESTADO").HasMaxLength(255);
             entity.Property(e => e.Marca).HasColumnName("MARCA").HasMaxLength(255);
             entity.Property(e => e.Serie).HasColumnName("Serie").HasMaxLength(255);
@@ -241,6 +241,7 @@ public class ApplicationDbContext : DbContext
             entity.Property(e => e.Password).HasColumnName("Pass").HasMaxLength(100).IsRequired();
             entity.Property(e => e.Cargo).HasColumnName("cargo").HasMaxLength(50);
             entity.Property(e => e.Email).HasColumnName("email").HasMaxLength(50);
+            entity.Property(e => e.Rol).HasColumnName("rol").HasMaxLength(50).HasDefaultValue("User");
             entity.Ignore(e => e.Borrado);
             entity.Ignore(e => e.CreatedAt);
             entity.Ignore(e => e.UpdatedAt);

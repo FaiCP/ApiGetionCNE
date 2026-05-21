@@ -66,6 +66,7 @@ public class HardwareController : ControllerBase
     /// <summary>Crea un nuevo equipo de hardware junto a sus características técnicas si aplica</summary>
     /// <param name="request">Datos del hardware y características opcionales</param>
     /// <returns>ID del hardware creado</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<long>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -93,6 +94,7 @@ public class HardwareController : ControllerBase
     /// <param name="id">ID del hardware a actualizar</param>
     /// <param name="request">Nuevos datos del hardware</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPut("Actualizar/{id}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -118,6 +120,7 @@ public class HardwareController : ControllerBase
     /// <summary>Elimina (borrado lógico) equipos de hardware</summary>
     /// <param name="ids">Lista de IDs a eliminar</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpDelete("Eliminar")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]

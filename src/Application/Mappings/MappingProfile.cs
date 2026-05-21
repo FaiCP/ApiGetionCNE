@@ -20,7 +20,7 @@ public class MappingProfile : Profile
         CreateMap<Departamento, DepartamentoDto>().ReverseMap();
 
         // Persona / Personal
-        CreateMap<Persona, PersonalDto>().ReverseMap();
+        CreateMap<Persona, PersonalDto>();
 
         // Custodio
         CreateMap<Custodio, CustodioDto>()

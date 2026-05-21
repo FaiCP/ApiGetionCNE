@@ -54,6 +54,7 @@ public class KitsController : ControllerBase
     /// <summary>Crea un nuevo kit o insumo</summary>
     /// <param name="request">Datos del kit</param>
     /// <returns>ID del kit creado</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<long>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -76,6 +77,7 @@ public class KitsController : ControllerBase
     /// <param name="id">ID del kit a actualizar</param>
     /// <param name="request">Nuevos datos del kit</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPut("Actualizar/{id}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -99,6 +101,7 @@ public class KitsController : ControllerBase
     /// <summary>Elimina (borrado lógico) kits</summary>
     /// <param name="ids">Lista de IDs a eliminar</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpDelete("Eliminar")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]

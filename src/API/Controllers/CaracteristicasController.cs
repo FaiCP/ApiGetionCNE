@@ -23,6 +23,7 @@ public class CaracteristicasController : ControllerBase
     /// <summary>Crea las características técnicas de una computadora</summary>
     /// <param name="request">Datos de características (RAM, ROM, Procesador)</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]

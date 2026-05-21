@@ -20,11 +20,7 @@ public class DeleteSuministroCommandHandler : IRequestHandler<DeleteSuministroCo
         {
             var suministro = await _suministroRepository.GetByIdAsync(id);
             if (suministro != null)
-            {
-                suministro.Borrado = true;
-                suministro.UpdatedAt = DateTime.UtcNow;
-                await _suministroRepository.UpdateAsync(suministro);
-            }
+                await _suministroRepository.DeleteAsync(suministro);
         }
         return true;
     }

@@ -70,6 +70,7 @@ public class GestionActivosController : ControllerBase
     /// <summary>Asigna uno o más equipos a un custodio</summary>
     /// <param name="request">Lista de asignaciones de equipos</param>
     /// <returns>Lista de IDs creados</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPost("Crear")]
     [ProducesResponseType(typeof(ApiResponse<List<long?>>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -85,6 +86,7 @@ public class GestionActivosController : ControllerBase
     /// <param name="id">ID de la asignación a actualizar</param>
     /// <param name="request">Datos de la devolución</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpPut("Actualizar/{id}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status400BadRequest)]
@@ -105,6 +107,7 @@ public class GestionActivosController : ControllerBase
     /// <summary>Elimina (borrado lógico) asignaciones de activos</summary>
     /// <param name="ids">Lista de IDs a eliminar</param>
     /// <returns>Resultado de la operación</returns>
+    [Authorize(Policy = "RequireAdminRole")]
     [HttpDelete("Eliminar")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]

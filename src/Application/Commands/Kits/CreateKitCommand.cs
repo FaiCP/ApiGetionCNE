@@ -6,7 +6,7 @@ namespace Application.Commands.Kits;
 
 public record CreateKitCommand(
     string Insumo,
-    string Cantidad,
+    int Cantidad,
     string Estado,
     string Observacion,
     string Marca,

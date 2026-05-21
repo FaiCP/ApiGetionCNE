@@ -7,7 +7,7 @@ namespace Application.Commands.Kits;
 public record UpdateKitCommand(
     long Id,
     string Insumo,
-    string Cantidad,
+    int Cantidad,
     string Estado,
     string Observacion,
     string Marca,

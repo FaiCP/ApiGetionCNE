@@ -1,5 +1,6 @@
 using Application.DTOs.Documentos;
 using Application.Interfaces;
+using Domain.Exceptions;
 using Domain.Interfaces;
 using MediatR;
 
@@ -20,11 +21,15 @@ public class GenerarActaPersonalPdfQueryHandler : IRequestHandler<GenerarActaPer
 
     public async Task<byte[]> Handle(GenerarActaPersonalPdfQuery request, CancellationToken cancellationToken)
     {
-        var personas = await _personalRepo.GetByIdsAsync(request.Ids);
-        var first = personas.FirstOrDefault();
-        if (first == null) throw new Domain.Exceptions.NotFoundException("Personal", string.Join(",", request.Ids));
+        if (request.Ids == null || request.Ids.Count == 0)
+            throw new ValidationException("Debe proporcionar al menos un ID de personal.");
 
-        var dto = new PersonalActaItemDto(first.Nombre, first.Cedula, first.Cargo, first.Fecha, first.Email, first.TempPass);
+        var personas = await _personalRepo.GetByIdsAsync(request.Ids);
+        if (personas.Count == 0)
+            throw new NotFoundException("Personal", string.Join(",", request.Ids));
+
+        var first = personas[0];
+        var dto = new PersonalActaItemDto(first.Nombre, first.Cedula, first.Cargo, first.Fecha, first.Email ?? string.Empty);
         return _pdfService.GenerarActaPersonal(dto);
     }
 }

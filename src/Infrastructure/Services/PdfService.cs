@@ -129,8 +129,8 @@ public class PdfService : IPdfService
         document.Add(new Paragraph("CUENTA DE CORREO INSTITUCIONAL:\n", new Font(Font.HELVETICA, 15, Font.BOLD)) { Alignment = Element.ALIGN_LEFT });
         document.Add(new Paragraph("LINK: mail.cne.gob.ec", fontNormal));
         document.Add(new Paragraph($"SU CUENTA ES LA SIGUIENTE: {persona.Email}", fontNormal));
-        document.Add(new Paragraph($"CONTRASEÑA TEMPORAL: {persona.TempPass}", fontBold));
-        document.Add(new Paragraph($"CUENTA DE QUIPUX: ingresará a su cuenta de correo institucional y pinchará en el link que le indica para la generación de la clave de Quipux. {persona.TempPass}", fontNormal));
+        document.Add(new Paragraph("CONTRASEÑA TEMPORAL: [Se entrega de forma personal y confidencial]", fontBold));
+        document.Add(new Paragraph("CUENTA DE QUIPUX: ingresará a su cuenta de correo institucional y pinchará en el link que le indica para la generación de la clave de Quipux.", fontNormal));
         document.Add(new Paragraph("El link para el ingreso a QUIPUX es el siguiente: quipux.cne.gob.ec, con su número de cédula y la contraseña que Ud. genere personalmente.\n\n", fontNormal));
 
         var tableRef = new PdfPTable(1) { WidthPercentage = 100 };
@@ -272,7 +272,7 @@ public class PdfService : IPdfService
             table.AddCell(new PdfPCell(new Phrase(item.Marca ?? "", font)));
             table.AddCell(new PdfPCell(new Phrase(item.Modelo ?? "", font)));
             table.AddCell(new PdfPCell(new Phrase(item.Serie ?? "", font)));
-            table.AddCell(new PdfPCell(new Phrase(item.Cantidad ?? "", font)));
+            table.AddCell(new PdfPCell(new Phrase(item.Cantidad.ToString(), font)));
             table.AddCell(new PdfPCell(new Phrase(item.Estado ?? "", font)));
             table.AddCell(new PdfPCell(new Phrase(item.Observacion ?? "", font)));
         }

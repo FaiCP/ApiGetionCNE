@@ -20,11 +20,7 @@ public class DeleteHardwareCommandHandler : IRequestHandler<DeleteHardwareComman
         {
             var hardware = await _hardwareRepository.GetByIdAsync(id);
             if (hardware != null)
-            {
-                hardware.Borrado = true;
-                hardware.UpdatedAt = DateTime.UtcNow;
-                await _hardwareRepository.UpdateAsync(hardware);
-            }
+                await _hardwareRepository.DeleteAsync(hardware);
         }
         return true;
     }

@@ -35,6 +35,7 @@ public class GlobalExceptionHandlerMiddleware
         var response = new ErrorResponse
         {
             Message = exception.Message,
+            Mensajes = new List<string> { exception.Message },
             StackTrace = context.RequestServices.GetRequiredService<IWebHostEnvironment>().EnvironmentName == "Development"
                 ? exception.StackTrace
                 : null
@@ -46,6 +47,7 @@ public class GlobalExceptionHandlerMiddleware
                 context.Response.StatusCode = (int)HttpStatusCode.UnprocessableEntity;
                 response.StatusCode = HttpStatusCode.UnprocessableEntity;
                 response.Errors = validationEx.Errors;
+                response.Mensajes = validationEx.Errors.SelectMany(e => e.Value).ToList();
                 break;
             case NotFoundException:
             case KeyNotFoundException:
@@ -66,6 +68,7 @@ public class GlobalExceptionHandlerMiddleware
                 context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 response.StatusCode = HttpStatusCode.InternalServerError;
                 response.Message = "Ha ocurrido un error interno del servidor.";
+                response.Mensajes = new List<string> { "Ha ocurrido un error interno del servidor." };
                 break;
         }
 
@@ -82,6 +85,7 @@ public class ErrorResponse
 {
     public HttpStatusCode StatusCode { get; set; }
     public string Message { get; set; } = string.Empty;
+    public List<string> Mensajes { get; set; } = new();
     public string? StackTrace { get; set; }
     public IReadOnlyDictionary<string, string[]>? Errors { get; set; }
 }

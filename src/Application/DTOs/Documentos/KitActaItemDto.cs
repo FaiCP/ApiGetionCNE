@@ -5,7 +5,7 @@ public record KitActaItemDto(
     string Marca,
     string Modelo,
     string Serie,
-    string Cantidad,
+    int Cantidad,
     string Estado,
     string Observacion
 );
