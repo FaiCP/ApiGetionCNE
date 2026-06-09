@@ -5,6 +5,8 @@ obj/
 *.suo
 .vs/
 *.log
+*.ncrunchproject
+*.ncrunchsolution
 
 ## Logs
 src/API/logs/
@@ -12,10 +14,39 @@ src/API/logs/
 ## appsettings locales (no subir credenciales)
 appsettings.Development.json
 appsettings.Production.json
+appsettings.Local.json
+*.env
+.env.local
 
 ## Publicacion
 publish/
 out/
+dist/
+
+## IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Test Coverage
+coverage/
+.coverage
+*.trx
+TestResults/
+OpenCover/
+
+## Node (si hay frontend)
+node_modules/
+dist/
+.next/
 
 ## Claude Code
 .claude/

@@ -21,6 +21,7 @@ public static class DatabaseSeeder
             Email = "admin@test.com",
             Password = BCrypt.Net.BCrypt.HashPassword("password123"),
             Cargo = "Administrador",
+            Rol = "Administrador",
             Borrado = false
         });
 

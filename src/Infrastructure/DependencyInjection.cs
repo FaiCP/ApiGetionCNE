@@ -29,10 +29,13 @@ public static class DependencyInjection
         }
         else
         {
+            var rawConnStr = configuration.GetConnectionString("DefaultConnection")!;
+            var connStr = string.Join("", rawConnStr.Split(['\r', '\n']).Select(s => s.Trim()));
+
             services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(
-                    configuration.GetConnectionString("DefaultConnection")!,
+                    connStr,
                     sqlOptions =>
                     {
                         sqlOptions.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName);

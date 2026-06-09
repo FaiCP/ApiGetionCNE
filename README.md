@@ -1,30 +1,3 @@
-<!-- AUTOREADME:START -->
-<p align="center">
-  <h1>📦 GestorAdmi.Core</h1>
-</p>
-
-<p align="center">
-  <a href="https://github.com/FaiCP/ApiGetionCNE/stargazers"><img src="https://img.shields.io/github/stars/FaiCP/ApiGetionCNE?style=flat&color=yellow" alt="Stars" /></a>
-  <a href="https://github.com/FaiCP/ApiGetionCNE/commits"><img src="https://img.shields.io/github/last-commit/FaiCP/ApiGetionCNE?style=flat" alt="Last Commit" /></a>
-</p>
-
-## Project Structure
-
-```
-├─ publish/
-├─ src/
-├─ tests/
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a branch: `git checkout -b feature/your-feature`
-3. Commit your changes
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a pull request against `main`
-<!-- AUTOREADME:END -->
-
 # 🚀 GestorAdmi Core API
 
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-512bd4.svg)
@@ -78,41 +51,143 @@ El proyecto implementa **Clean Architecture**, dividiendo la lógica en capas co
 
 ### Requisitos
 * .NET 10 SDK
-* SQL Server
+* SQL Server 2019+ (local o remoto)
+* Git
 
-### Pasos
-1. **Clonar el repositorio:**
+### Setup Inicial
+
+1. **Clonar repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/GestorAdmi.Core.git](https://github.com/tu-usuario/GestorAdmi.Core.git)
-Configurar Connection String:
-Edita el archivo src/API/appsettings.Development.json con tus credenciales de base de datos local.
+   git clone https://github.com/FaiCP/ApiGetionCNE.git
+   cd GestorAdmi-master/GestorAdmi.Core
+   ```
 
-Migraciones:
+2. **Configurar Connection String:**
+   - Copia `src/API/appsettings.Development.json` (crear si no existe)
+   - Actualiza `ConnectionStrings:DefaultConnection` con credenciales SQL local:
+   ```json
+   {
+     "ConnectionStrings": {
+       "DefaultConnection": "Server=localhost;Database=GestorAdmiDB;User Id=sa;Password=TuPassword123;"
+     }
+   }
+   ```
 
-Bash
-dotnet ef database update --project src/Infrastructure --startup-project src/API
-Ejecutar:
+3. **Ejecutar Migraciones:**
+   ```bash
+   dotnet ef database update --project src/Infrastructure --startup-project src/API
+   ```
 
-Bash
-dotnet run --project src/API
-🧪 Estrategia de Pruebas
-Se garantiza la integridad del sistema mediante dos niveles de testing:
+4. **Restaurar Dependencias y Ejecutar:**
+   ```bash
+   dotnet restore
+   dotnet run --project src/API
+   ```
 
-Unit Tests: Validación de Handlers y lógica de dominio de forma aislada.
+   API disponible en: `http://localhost:5000`  
+   Swagger en: `http://localhost:5000/swagger`
 
-Integration Tests: Pruebas de endpoints HTTP utilizando una base de datos en memoria para simular escenarios reales.
+---
 
-Ejecución de tests:
+## 🧪 Estrategia de Pruebas
 
-Bash
+Sistema de dos niveles para garantizar integridad:
+
+- **Unit Tests:** Validación aislada de Handlers y lógica de dominio
+- **Integration Tests:** Endpoints HTTP con BD en memoria simulando escenarios reales
+
+Ejecutar tests:
+```bash
 dotnet test
-🚢 Despliegue Automatizado
-El repositorio incluye un script de PowerShell deploy.ps1 que gestiona el ciclo de vida del despliegue a Somee.com:
+```
 
-Restauración y compilación.
+Ejecución con coverage:
+```bash
+dotnet test /p:CollectCoverage=true
+```
 
-Ejecución obligatoria de pruebas (el despliegue se detiene si fallan).
+---
 
-Publicación del artefacto en modo Release.
+## 🔧 Variables de Entorno
 
-Carga vía FTP al servidor de producción.
+Configurables en `appsettings.{Environment}.json`:
+
+| Variable | Descripción | Ejemplo |
+|:---|:---|:---|
+| `JwtSettings:SecretKey` | Clave para firmar tokens JWT | `super-secret-key-min-32-chars` |
+| `JwtSettings:ExpirationMinutes` | Minutos de expiración token | `60` |
+| `EmailSettings:Host` | SMTP host | `smtp.gmail.com` |
+| `EmailSettings:Port` | Puerto SMTP | `587` |
+| `EmailSettings:Username` | Usuario correo | `tu-email@gmail.com` |
+| `EmailSettings:Password` | Contraseña correo | `app-password` |
+
+---
+
+## 🚢 Despliegue a Producción
+
+Script PowerShell automatizado (`deploy.ps1`):
+
+```powershell
+.\deploy.ps1
+```
+
+Pasos ejecutados:
+1. Restauración de dependencias
+2. Build en modo Release
+3. Ejecución de tests (detiene si fallan)
+4. Publicación de artefactos
+5. Carga vía FTP a Somee.com
+
+**Requisitos deploy:**
+- Credenciales FTP configuradas en `.env` (local, no subir)
+- Tests pasando
+- Cambios commiteados en git
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+GestorAdmi.Core/
+├── src/
+│   ├── API/                    # Presentation Layer (Controllers, Middlewares)
+│   ├── Application/            # Use Cases (Commands, Queries, Validators)
+│   ├── Domain/                 # Business Logic (Entities, Interfaces)
+│   └── Infrastructure/         # Data Access, Services (EF, SMTP, Reports)
+├── tests/
+│   ├── GestorAdmi.Tests.Unit/
+│   └── GestorAdmi.Tests.Integration/
+└── publish/                    # Artefactos de despliegue
+```
+
+---
+
+## 🤝 Contribución
+
+1. Fork el repositorio
+2. Crea rama: `git checkout -b feature/tu-feature`
+3. Commit: `git commit -m "feat: descripción"`
+4. Push: `git push origin feature/tu-feature`
+5. PR a `main`
+
+---
+
+## 🐛 Troubleshooting
+
+**Error de conexión BD:**
+- Verifica `appsettings.Development.json`
+- SQL Server corriendo: `SELECT @@VERSION;`
+
+**Tokens JWT expirados:**
+- Aumenta `JwtSettings:ExpirationMinutes`
+- Regenera `SecretKey` en todas instancias
+
+**Tests fallan en Integration:**
+- Limpia BD: `dotnet ef database drop --force`
+- Reaplica migraciones: `dotnet ef database update`
+
+---
+
+## 📝 Licencia
+
+MIT © 2025 GestorAdmi
